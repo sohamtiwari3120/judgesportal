@@ -1,0 +1,110 @@
+h2 {
+    color: black;
+    font-family: Montserrat 800;
+    /* font-size:4vw; */
+}
+
+.container1 {
+    box-sizing: border-box;
+    border-radius: 15px;
+    background: white;
+    padding: 30px;
+    margin: 10px;
+    /* width: 75%; */
+    /* height: 75%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+    max-width: 100%;
+}
+
+.container2 {
+    margin: 10px;
+    vertical-align: middle;
+}
+.radio-container{
+    margin-top:5% ;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: small;
+}
+#logo {
+    width: 70%;
+    max-width: 100%;
+}
+
+#logo:hover {
+    width: 75%;
+}
+
+.outer {
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+input {
+    border: none;
+    background-color: lightgray;
+    border-radius: 40px;
+    padding: 4%;
+    padding-left: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+    font-size: 100%;
+}
+input[type=submit]:default {
+    margin-top: 10%;
+    background-color: #2ebf91;
+    width: 110%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+input[type=submit]:hover {
+    background-color: #00d491;
+    text-align: center;
+    width: 110%;
+    color: white;
+}
+
+input[type=submit]:active {
+    background-color: #008b5f;
+    text-align: center;
+    width: 110%;
+    color: white;
+}
+
+html {
+    /* background-image: linear-gradient(to bottom right, rgb(0, 110, 255),rgb(8, 248, 8));
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    width: 100%;
+    height: 100%; */
+    box-sizing: border-box;
+    font-size: 17px;
+    font-weight: bolder;
+    font-family: Montserrat;
+    background: #8360c3;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2ebf91, #8360c3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2ebf91, #8360c3);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
