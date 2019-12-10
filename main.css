@@ -10,10 +10,9 @@
     /* width: 100%; */
     /* font-size:24px; */
     /* font-size: calc(16px + 8 * ((100vw - 320px) / 760)); */
-} */
 h2{
     color: black;
-    font-size: calc(24px + 16 * ((100vw - 320px) / 760));
+    font-size: calc(16px + 8 * ((100vw - 320px) / 760));
     /* margin-bottom: 20%; */
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
