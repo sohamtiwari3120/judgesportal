@@ -36,7 +36,7 @@ h2{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    height: 60vh;
+    height: 48vh;
     width: 50%;
     max-width: 100%;
 }
@@ -61,6 +61,7 @@ h2{
     padding-left: 6%; */
     /* vertical-align: right; */
     text-align: center;
+    /* margin-bottom: 30%; */
     /* background-color: #8360c3; */
 }
 .radio-container{
@@ -78,7 +79,7 @@ h2{
     font-size:small ;
 }
 #logo {
-    width: 70%;
+    width: 65%;
     max-width: 90%;
 }
 .outer {
