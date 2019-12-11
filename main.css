@@ -12,8 +12,12 @@
     /* font-size: calc(16px + 8 * ((100vw - 320px) / 760)); */
 h2{
     color: black;
+    /* background-color: #008b5f; */
+    padding-left: 7% ;
+    /* width: 110%; */
+    margin: auto;
     font-size: calc(16px + 8 * ((100vw - 320px) / 760));
-    /* margin-bottom: 20%; */
+    margin-bottom: 20%;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
 }
@@ -28,17 +32,19 @@ h2{
     padding-right: 50px;
     margin: 10px;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    /* height: 600px; */
-    /* max-width: 100%; */
+    height: 600px;
+    width: 50%;
+    max-width: 100%;
 }
 
 .container2 {
+    /* background-color: blueviolet; */
     margin: 10px;
-    vertical-align: middle;
+    /* vertical-align: middle; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -68,7 +74,7 @@ h2{
     font-size:small ;
 }
 #logo {
-    width: 60%;
+    width: 70%;
     max-width: 90%;
 }
 .outer {
