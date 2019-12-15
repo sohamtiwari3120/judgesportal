@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900|Raleway:400,600,700,800&display=swap');
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: 'Raleway', sans-serif;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2ebf91, #8360c3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2ebf91, #8360c3);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1{
+    /* background-color: #2ebf91; */
+    text-align: center;
+    color: white;
+    font-size: calc(24px + 8 * ((100vw - 320px) / 760));
+    margin-bottom: 1vh;
+    font-family: 'Raleway', sans-serif;;
+}
+.outer-container{
+    /* background-color: aqua; */
+    /* border: aqua solid 3px; */
+    /* border-radius: 15px; */
+    margin-top: 5%;
+    height: 90vh;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /* align-items: center; */
+    /* align-content: center; */
+    align-content: flex-start;
+}
+.event_name{
+    background-color: white;
+    background-image: url("Login\ Page/design9.png");
+    background-size: auto;
+    border-radius: 15px;
+    margin: 1.5vh;
+    padding: 10px;
+    font-size: large;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    width: 32vh;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.event_name:hover{
+    background-color: white;
+    background-image: url("Login\ Page/design9.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin: 1.5vh;
+    padding: 10px;
+    font-size: 1.5em;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 500;
+    width: 33vh;
+    height: 11vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
