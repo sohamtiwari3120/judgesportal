@@ -128,7 +128,10 @@ input[type=submit]:active {
     width: 110%;
     color: white;
 }
-
+input[type=radio]{
+    height: auto;
+    width: auto;
+}
 html {
     box-sizing: border-box;
     font-size: 16px;
