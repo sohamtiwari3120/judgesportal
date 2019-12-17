@@ -48,7 +48,6 @@ h1 {
 }
 
 .outer-container {
-    /* min-height:90vh ; */
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -63,7 +62,12 @@ h1 {
     margin: 0;
     padding: 0;
 }
-
+.event_item{
+    /* flex: 1 1 auto; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 .event {
     flex-grow: 1;
     flex-basis: auto;
@@ -112,15 +116,15 @@ h1 {
 }
 
 
-@media (min-width: 320px) {
-    .event {
+@media (min-width: 480px) {
+    .event_item {
         width: 50%;
     }
 }
 
 @media (min-width: 760px) {
-    .event {
-        width: 20%;
+    .event_item {
+        width: 25%;
     }
     .outer-container2{
         margin: auto;
