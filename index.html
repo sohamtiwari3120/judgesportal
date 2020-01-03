@@ -16,7 +16,7 @@
     <script src="adminscoreboard.js" lang="javascript"></script>
 </head>
 
-<body onload="updatecolors()" onchange='updatecolors()'>
+<body>
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -34,91 +34,94 @@
         <tbody>
             <tr>
                 <td>1</td>
-                <td><input type="number" value='3'></td>
+                <td><input type="number" value='3' onchange="verifyRoundChange(this)" onclick='storeOldVal(this)'></td>
                 <td>10</td>
                 <td>50</td>
                 <td class='dq'>
                     <label class="switch">
-                        <input type="checkbox" >
+                        <input type="checkbox" id= "toggle" onclick="toggleDisqualified(this);">
                         <span class="slider round"></span>
                     </label>
                 </td>
             </tr>
             <tr>
                 <td>2</td>
-                <td><input type="number" value='3'></td>
+                <td><input type="number" value='3' onchange="verifyRoundChange(this)" onclick='storeOldVal(this)'></td>
                 <td>10</td>
                 <td>50</td>
                 <td class='dq'>
                     <label class="switch">
-                        <input type="checkbox" >
+                        <input type="checkbox" id= "toggle" onclick="toggleDisqualified(this);">
                         <span class="slider round"></span>
                     </label>
                 </td>
             </tr>
             <tr>
                 <td>3</td>
-                <td><input type="number" value='3'></td>
+                <td><input type="number" value='3' onchange="verifyRoundChange(this)" onclick='storeOldVal(this)'></td>
                 <td>10</td>
                 <td>50</td>
                 <td class='dq'>
                     <label class="switch">
-                        <input type="checkbox" >
+                        <input type="checkbox" id= "toggle" onclick="toggleDisqualified(this);">
                         <span class="slider round"></span>
                     </label>
                 </td>
             </tr>
             <tr>
                 <td>4</td>
-                <td><input type="number" value='3'></td>
+                <td><input type="number" value='3' onchange="verifyRoundChange(this)" onclick='storeOldVal(this)'></td>
                 <td>10</td>
                 <td>50</td>
                 <td class='dq'>
                     <label class="switch">
-                        <input type="checkbox" >
+                        <input type="checkbox" id= "toggle" onclick="toggleDisqualified(this);">
                         <span class="slider round"></span>
                     </label>
                 </td>
             </tr>
             <tr>
                 <td>5</td>
-                <td><input type="number" value='3'></td>
+                <td><input type="number" value='3' onchange="verifyRoundChange(this)" onclick='storeOldVal(this)'></td>
                 <td>10</td>
                 <td>50</td>
                 <td class='dq'>
                     <label class="switch">
-                        <input type="checkbox" >
+                        <input type="checkbox" id= "toggle" onclick="toggleDisqualified(this);">
                         <span class="slider round"></span>
                     </label>
                 </td>
             </tr>
             <tr>
                 <td>6</td>
-                <td><input type="number" value='3'></td>
+                <td><input type="number" value='3' onchange="verifyRoundChange(this)" onclick='storeOldVal(this)'></td>
                 <td>10</td>
                 <td>50</td>
                 <td class='dq'>
                     <label class="switch">
-                        <input type="checkbox" >
-                        <span class="slider round"></span>
+                        <input type="checkbox" id= "toggle" onclick="toggleDisqualified(this);">
+                        <span class="slider round" ></span>
                     </label>
                 </td>
             </tr>
             <tr>
                 <td>7</td>
-                <td><input type="number" value='3'></td>
+                <td><input type="number" value='3' onchange="verifyRoundChange(this)" onclick='storeOldVal(this)'></td>
                 <td>10</td>
                 <td>50</td>
                 <td class='dq'>
                     <label class="switch">
-                        <input type="checkbox" >
-                        <span class="slider round"></span>
+                        <input type="checkbox" id= "toggle" onclick="toggleDisqualified(this);">
+                        <span class="slider round" ></span>
                     </label>
                 </td>
             </tr>
         </tbody>
     </table>
     <!-- <script src="" async defer></script> -->
+    <script>
+
+    </script>
 </body>
 
 </html>
